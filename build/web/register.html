@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        
+        
+        <script type="text/javascript">
+
+  function validate(form) {
+  var e = form.elements;
+
+  /* Your validation code. */
+
+  if(e['password'].value != e['rpassword'].value) {
+    alert('Your passwords do not match. Please type more carefully.');
+    return false;
+  }
+  return true;
+}
+
+</script>
+
+        <meta charset="UTF-8">
+        <title>Sign-up</title>
+        <link rel='stylesheet' href='http://codepen.io/assets/libs/fullpage/jquery-ui.css'>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body background="img/bg2.jpg">
+        
+        
+        
+
+        <div class="login-card" style="margin-top:100px;width:300px">
+            <h1><b>Sign-up</b></h1>
+            <form action ="process.jsp" method="post" onsubmit="return validate(this);">
+                <input type="text" name="name" placeholder="fname" required autocomplete="off" >
+                <input type="text" name="lname" placeholder="lname" required  autocomplete="off">
+                <input type="email" name="email" placeholder="email" required autocomplete="off">
+                <input type="text" name="address" placeholder="city" required autocomplete="off">
+                <input type="password" name="password" placeholder="password" required autocomplete="off">
+                <input type="password" name="rpassword" placeholder="Renter your Password" required autocomplete="off">
+                <p>Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="birthdate" ></p>
+
+                <div>
+                    <input type="radio" name="category" value="A" id="A"/>
+                    <label for="A">UG Student</label>
+                    <div class="sub1" >
+                        <div>
+                            <input type="radio" name="department" value="A0" id="A0"/>
+                            <label for="A0">CSE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="department" value="A1" id="A1"/>
+                            <label for="A1">ECE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="department" value="A2" id="A2"/>
+                            <label for="A2">CCE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="department" value="A3" id="A3"/>
+                            <label for="A3">MME</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="radio" name="category" value="B" id="B"/>
+                    <label for="B">PG Student</label>
+                    <div class="sub1">
+                        <div>
+                            <input type="radio" name="department" value="B0" id="B0"/>
+                            <label for="B0">CSE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="department" value="B1" id="B1"/>
+                            <label for="B1">ECE</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="radio" name="category" value="C" id="C"/>
+                    <label for="C">Faculty</label>
+                    <div class="sub1">
+                        <div>
+                            <input type="radio" name="department" value="C0" id="C0"/>
+                            <label for="C0">CSE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="department" value="C1" id="C1"/>
+                            <label for="C1">ECE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="department" value="C2" id="C2"/>
+                            <label for="C2">CCE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="department" value="C3" id="C3"/>
+                            <label for="C3">MME</label>
+                        </div>
+                    </div>
+                </div>   
+
+
+
+                <p>Security Questtion</p>
+
+                <select style="margin-bottom:20px"  name="que"  >
+                    <option      value="ghfhfghf"  >What is your mother name??</option>
+                    <option     value="first math teacher">Who is your first math teacher??</option>
+                    <option value="pet name">What is your pet name??</option>
+                </select>
+                <input type="text" name="ans" required autocomplete="off">
+                <input type="submit"  name="submit" class="login login-submit" value="Register">
+
+
+            </form>
+
+
+
+
+
+        </div>
+
+    </body>
+</html>

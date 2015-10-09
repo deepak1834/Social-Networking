@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>web/GroupDisplay.jsp</url>
+            <bookmark id="1">
+                <name/>
+                <line>173</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/Group.java</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/web/user.jsp</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/Post.java</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/Page.java</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/web/css/styles.css</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/User.java</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/web/index.html</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/ConnectionProvider.java</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/RegisterDao.java</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/GroupManager.java</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/web/css/style.css</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/web/ShowPendingRequest.jsp</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/web/EditInfo.jsp</file>
+            <file>file:/C:/Users/dksh/Documents/NetBeansProjects/so1/src/java/bean/RequestManager.java</file>
+        </group>
+    </open-files>
+</project-private>
